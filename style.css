@@ -185,6 +185,52 @@ nav ul .logo{
     margin-top: -240px;
     margin-right: 70px;
 }
+
+.skills{
+   text-align: center;
+    margin-top: 80px;
+}
+
+.skills h1{
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-left: 350px;
+    
+}
+
+.grid > div{
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+    color: #ffffff;
+    background-color: #333;
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.grid h2{
+    margin-top: 10px;
+}
+
+.grid #lang{
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.grid .css {
+    margin-left: -150px;
+}
+
+.grid .php {
+    margin-left: -150px;
+}
 /* Media Query for Mobile (Screen width 480px and below) */
 @media screen and (max-width: 700px){
     nav ul{
@@ -281,51 +327,7 @@ nav ul .logo{
     }
 }
 
-.skills{
-   text-align: center;
-    margin-top: 80px;
-}
 
-.skills h1{
-    color: #ffffff;
-    font-family:'Courier New', Courier, monospace;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
-    margin-left: 350px;
-    
-}
-
-.grid > div{
-    display: flex;
-    justify-content: center;
-    padding: 30px 40px;
-    color: #ffffff;
-    background-color: #333;
-    margin: 20px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-.grid h2{
-    margin-top: 10px;
-}
-
-.grid #lang{
-    font-size: 50px;
-    margin-right: 30px;
-}
-
-.grid .css {
-    margin-left: -150px;
-}
-
-.grid .php {
-    margin-left: -150px;
-}
 
 .grid .python{
     margin-left: -150px;
