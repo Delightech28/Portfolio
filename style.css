@@ -156,6 +156,35 @@ nav ul .logo{
     color: #0077B5;
 }
 
+.about{
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.about h1{
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.about p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 900px;
+     font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about img{
+    height: 250px;
+    width: 320px;
+    float: right;
+    object-fit: cover;
+    border-radius: 200px;
+    margin-top: -240px;
+    margin-right: 70px;
+}
 /* Media Query for Mobile (Screen width 480px and below) */
 @media screen and (max-width: 700px){
     nav ul{
@@ -226,7 +255,7 @@ nav ul .logo{
     .describe img{
         margin-top: 30px;
         height: 250px;
-        width: 450px;
+        width: 350px;
        float: none;
         
     }
@@ -235,34 +264,12 @@ nav ul .logo{
         margin-left: -20px;
         
     }
-}
 
-.about{
-    margin-top: 110px;
-    margin-left: 30px;
-}
-
-.about h1{
-    color: #ffffff;
-    font-family:'Courier New', Courier, monospace;
-}
-
-.about p{
-    color: #ffffff;
-    font-size: 16px;
-    margin-top: 10px;
-    font-family:cursive;
-    width: 900px;
-}
-
-.about img{
-    height: 250px;
-    width: 320px;
-    float: right;
-    object-fit: cover;
-    border-radius: 200px;
-    margin-top: -240px;
-    margin-right: 70px;
+    .about p{
+         text-align: justify;
+        margin-right: 20px;
+        width: 350px;
+        font-size:12px;
 }
 
 .skills{
