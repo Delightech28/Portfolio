@@ -16,7 +16,6 @@ html{
 body{
     background-color: #1c1c1c;
     overflow-x: hidden;
-    max-width:100%;
 }
 
 nav{
@@ -243,10 +242,10 @@ nav ul .logo{
         display: none;
     }
 
-    body{
-        overflow-x:hidden;
-        max-width:100%;
+   body {
+        overflow-x: hidden; /* Ensure no horizontal scrolling on mobile */
     }
+    
     .logo1{
         display: block;
           font-family: "Roboto", sans-serif;
@@ -278,7 +277,7 @@ nav ul .logo{
         text-align: center;
         text-decoration: none;
         display: block;
-        width: 90%;
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
         font-size: 18px;
@@ -306,14 +305,16 @@ nav ul .logo{
         margin-right: 20px;
         width: 350px;
         font-size:12px;
+        width: 90%; /* Make the width responsive */
+        margin: 0 auto;
     }
 
     .describe img{
         margin-top: 30px;
         height: 250px;
-        width: 350px;
+       /* width: 350px;*/
        float: none;
-        
+        width: 100%; /* Adjust the width to fit the screen */
     }
 
     .icons #tiktok, #github, #linkedin{
@@ -336,9 +337,14 @@ nav ul .logo{
         margin-top:-5px;
         display:grid;
         grid-template-columns:1fr;
-        
+        width: 100%;
     }
 
+    .grid > div{
+        width: 90%; /* Ensure cards fit within mobile view */
+        margin: 10px auto; /* Center-align cards */
+    }
+    
     .grid .css{
         margin-left: -280px;
     }
