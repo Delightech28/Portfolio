@@ -333,19 +333,19 @@ nav ul .logo{
     }
     
     .grid > div{
-        padding: 10px 10px;
+        padding: 10px 5px;
       
     }
 
     .grid .css {
-        margin-left: 130px;
+        margin-left: 100px;
     }
     
     .grid .php {
-        margin-right: 130px;
+        margin-left: 100px;
     }
     
     .grid .python{
-        margin-left: 130px;
+        margin-left: 100px;
     }
 }
