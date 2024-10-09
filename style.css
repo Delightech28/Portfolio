@@ -331,11 +331,21 @@ nav ul .logo{
         margin-left:-50px;
         margin-top:-20px;
     }
-
+    
     .grid > div{
-    padding: 20px 10px;
-    margin: 10px;
-    width: 200px;
-}
-}
+        padding: 10px 10px;
+      
+    }
 
+    .grid .css {
+        margin-left: 15px;
+    }
+    
+    .grid .php {
+        margin-left: 15px;
+    }
+    
+    .grid .python{
+        margin-left: 15px;
+    }
+}
