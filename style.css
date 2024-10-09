@@ -57,6 +57,9 @@ nav ul .logo{
     width:150px;
     color: #007BFF;
     display: none;
+     font-family: "Roboto", sans-serif;
+  font-weight: 800;
+        font-size: normal;
     }
 
 .menu-icon{
@@ -159,7 +162,8 @@ nav ul .logo{
     .logo1{
         display: block;
           font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 800;
+        font-size: normal;
         
     }
 
