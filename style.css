@@ -305,8 +305,6 @@ nav ul .logo{
         margin-right: 20px;
         width: 350px;
         font-size:12px;
-        width: 90%; /* Make the width responsive */
-        margin: 0 auto;
     }
 
     .describe img{
