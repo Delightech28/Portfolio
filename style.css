@@ -231,6 +231,11 @@ nav ul .logo{
 .grid .php {
     margin-left: -150px;
 }
+
+.grid .python{
+    margin-left: -150px;
+}
+
 /* Media Query for Mobile (Screen width 480px and below) */
 @media screen and (max-width: 700px){
     nav ul{
@@ -323,12 +328,14 @@ nav ul .logo{
     }
 
     .grid{
-        margin-left:-70px;
+        margin-left:-50px;
+        margin-top:-20px;
     }
+
+    .grid > div{
+    padding: 20px 10px;
+    margin: 10px;
+    width: 200px;
+}
 }
 
-
-
-.grid .python{
-    margin-left: -150px;
-}
