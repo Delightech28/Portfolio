@@ -94,8 +94,11 @@ nav ul .logo{
         margin-top: 10px;
         line-height: 1.5;
        /* font-family:verdana, sans-serif; */
-       font-family: cursive;
        width: 900px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
     }
     
     .describe img{
