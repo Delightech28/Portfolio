@@ -272,6 +272,15 @@ nav ul .logo{
         font-size:12px;
 }
 
+    .about img{
+        display:none;
+    }
+
+    .grid{
+        margin-left:-70px;
+    }
+}
+
 .skills{
    text-align: center;
     margin-top: 80px;
