@@ -328,9 +328,33 @@ nav ul .logo{
     }
 
     .grid{
-        margin-top:-20px;
+        margin-top:-5px;
         display:grid;
         grid-template-columns:1fr;
+        
+    }
+
+    .grid .css{
+        margin-left: -210px;
     }
     
+    .grid .php{
+        margin-left: -210px;
+    }
+
+    .grid .python{
+        margin-left: -210px;
+    }
+
+    .grid .html{
+        margin-left: -210px;
+    }
+
+    .grid .sql{
+        margin-left: -210px;
+    }
+
+    .grid .js{
+        margin-left: -210px;
+    }
 }
