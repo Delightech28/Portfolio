@@ -338,11 +338,11 @@ nav ul .logo{
     }
 
     .grid .css {
-        margin-left: 15px;
+        margin-left: 150px;
     }
     
     .grid .php {
-        margin-left: 15px;
+        margin-right: -150px;
     }
     
     .grid .python{
