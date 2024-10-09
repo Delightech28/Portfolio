@@ -312,9 +312,9 @@ nav ul .logo{
     .describe img{
         margin-top: 30px;
         height: 250px;
-       /* width: 350px;*/
+        width: 300px;
        float: none;
-        width: 100%; /* Adjust the width to fit the screen */
+       
     }
 
     .icons #tiktok, #github, #linkedin{
@@ -338,11 +338,6 @@ nav ul .logo{
         display:grid;
         grid-template-columns:1fr;
         width: 100%;
-    }
-
-    .grid > div{
-        width: 90%; /* Ensure cards fit within mobile view */
-        margin: 10px auto; /* Center-align cards */
     }
     
     .grid .css{
