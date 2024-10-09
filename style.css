@@ -16,6 +16,7 @@ html{
 body{
     background-color: #1c1c1c;
     overflow-x: hidden;
+    max-width:100%;
 }
 
 nav{
@@ -241,7 +242,11 @@ nav ul .logo{
     nav ul{
         display: none;
     }
-   
+
+    body{
+        overflow-x:hidden;
+        max-width:100%;
+    }
     .logo1{
         display: block;
           font-family: "Roboto", sans-serif;
